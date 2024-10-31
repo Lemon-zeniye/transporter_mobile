@@ -15,7 +15,7 @@ const SignIn = () => {
   });
 
   const onSubmit = () => {
-    router.push("/");
+    router.push("/home");
   };
   return (
     <SafeAreaView className="flex-1 justify-center">
@@ -52,7 +52,7 @@ const SignIn = () => {
           <Button
             mode="contained"
             style={styles.button}
-            onPress={() => console.log("Pressed")}
+            onPress={() => onSubmit()}
           >
             Login
           </Button>
