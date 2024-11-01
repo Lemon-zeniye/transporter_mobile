@@ -22,12 +22,12 @@ const SignUp = () => {
   };
 
   return (
-    <SafeAreaView className="flex-1 justify-center">
+    <SafeAreaView className="flex-1 bg-white justify-center">
       <ScrollView>
-        <View className="p-4 pt-8">
+        <View className="p-6 pt-8">
           <View>
             <Text className="text-3xl font-psemibold">Sign Up</Text>
-            <Text className="text-lg text-gray-300 font-pregular">
+            <Text className="text-lg text-gray-300 pt-2 font-pregular">
               Welcome! Please enter your details.
             </Text>
           </View>
@@ -96,7 +96,7 @@ const SignUp = () => {
           >
             Sign Up
           </Button>
-          <View className="items-center mt-6">
+          <View className="items-center mt-10">
             <Text>
               Already have an account?{" "}
               <Link href="/sign-in" className="text-blue-600 font-bold">
@@ -106,7 +106,7 @@ const SignUp = () => {
           </View>
         </View>
       </ScrollView>
-      <StatusBar style="dark" />
+      <StatusBar backgroundColor="#D3D3D3" style="dark" />
     </SafeAreaView>
   );
 };
@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
     borderRadius: 6,
     paddingVertical: 4,
     paddingHorizontal: 12,
-    marginTop: 14,
+    marginTop: 20,
     fontWeight: "bold",
   },
 });

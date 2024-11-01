@@ -18,7 +18,7 @@ const SignIn = () => {
     router.push("/home");
   };
   return (
-    <SafeAreaView className="flex-1 justify-center">
+    <SafeAreaView className="flex-1 bg-white justify-center">
       <ScrollView>
         <View className="p-6 flex-1 justify-center min-h-[90vh]">
           <View>
@@ -66,7 +66,7 @@ const SignIn = () => {
           </View>
         </View>
       </ScrollView>
-      <StatusBar backgroundColor="#fff" style="dark" />
+      <StatusBar backgroundColor="#D3D3D3" style="dark" />
     </SafeAreaView>
   );
 };
