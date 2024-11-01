@@ -20,7 +20,7 @@ const SignIn = () => {
   return (
     <SafeAreaView className="flex-1 justify-center">
       <ScrollView>
-        <View className="p-4">
+        <View className="p-6 flex-1 justify-center min-h-[90vh]">
           <View>
             <Text className="text-3xl my-2 font-psemibold">Log in</Text>
             <Text className="text-lg text-gray-300 font-pregular">
@@ -56,7 +56,7 @@ const SignIn = () => {
           >
             Login
           </Button>
-          <View className="items-center mt-6 ">
+          <View className="items-center mt-16 ">
             <Text>
               Don't have account?{" "}
               <Link href="/sign-up" className="text-blue-600 font-bold">
@@ -66,7 +66,7 @@ const SignIn = () => {
           </View>
         </View>
       </ScrollView>
-      <StatusBar backgroundColor="#000" style="dark" />
+      <StatusBar backgroundColor="#fff" style="dark" />
     </SafeAreaView>
   );
 };
@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
     borderRadius: 6,
     paddingVertical: 4,
     paddingHorizontal: 12,
-    marginTop: 14,
+    marginTop: 22,
     fontWeight: "bold",
   },
 });

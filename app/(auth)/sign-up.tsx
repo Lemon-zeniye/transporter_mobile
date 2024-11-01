@@ -24,9 +24,9 @@ const SignUp = () => {
   return (
     <SafeAreaView className="flex-1 justify-center">
       <ScrollView>
-        <View className="p-4">
+        <View className="p-4 pt-8">
           <View>
-            <Text className="text-3xl font-psemibold">Create an account</Text>
+            <Text className="text-3xl font-psemibold">Sign Up</Text>
             <Text className="text-lg text-gray-300 font-pregular">
               Welcome! Please enter your details.
             </Text>
@@ -106,7 +106,7 @@ const SignUp = () => {
           </View>
         </View>
       </ScrollView>
-      <StatusBar backgroundColor="#000" style="light" />
+      <StatusBar style="dark" />
     </SafeAreaView>
   );
 };
